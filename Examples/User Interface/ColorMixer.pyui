@@ -1,0 +1,157 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 244}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{6, 73}, {308, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "action" : "slider_action",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "value" : 0.5,
+          "uuid" : "EEC1AB04-2409-4C90-BD37-C72D603BEEFD",
+          "name" : "slider1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 115}, {308, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(0.000000,1.000000,0.000000,1.000000)",
+          "action" : "slider_action",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "value" : 0.5,
+          "uuid" : "24DD30D7-5087-44FF-BA7B-34FA81E96B25",
+          "name" : "slider2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 157}, {308, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "enabled" : true,
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "action" : "slider_action",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "value" : 0.5,
+          "uuid" : "01C997A5-D740-4147-A0FA-984D6B0E496C",
+          "name" : "slider3"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 6}, {154, 59}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "R",
+          "border_width" : 1,
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "uuid" : "B83D01DD-419E-4234-B0A6-357C2B9295D6",
+          "name" : "view1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{168, 6}, {148, 59}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "label1",
+          "flex" : "L",
+          "enabled" : true,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "#FFFFFF",
+          "alignment" : "center",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "uuid" : "81F11B65-0F76-42F8-B27C-6568A0728611",
+          "font_size" : 32,
+          "font_name" : "HelveticaNeue-Light"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{168, 199}, {146, 38}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "L",
+          "action" : "copy_action",
+          "enabled" : true,
+          "image_name" : "ionicons-ios7-copy-outline-32",
+          "title" : "   Copy",
+          "uuid" : "A2344984-839E-4B23-AE36-06F18F500A55",
+          "font_bold" : false,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "font_size" : 15,
+          "name" : "button1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 199}, {145.5, 38}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "R",
+          "action" : "shuffle_action",
+          "enabled" : true,
+          "image_name" : "ionicons-shuffle-32",
+          "title" : "   Shuffle",
+          "uuid" : "F748FBD8-3614-40E7-967B-301CD2DD5205",
+          "font_bold" : false,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "background_color" : "RGBA(0.000000,0.000000,0.000000,0.000000)",
+          "font_size" : 15,
+          "name" : "button2"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "Color Mixer",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+    }
+  }
+]
