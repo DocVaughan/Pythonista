@@ -1,0 +1,431 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {360, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 436}, {360, 43}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WT",
+          "frame" : "{{130, 190}, {100, 100}}",
+          "background_color" : "RGBA(0.951311,0.951311,0.951311,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "D6E14CC8-F993-413F-868B-66A0722E1F78"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 443}, {76, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RT",
+          "alpha" : 1,
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "3199CE3B-B347-477E-929B-4D6845A1C43B",
+          "text" : "Sending:",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "sending_label",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{90, 443}, {48, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RT",
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "134A3ECB-B090-4F1F-9F83-AB34A686762F",
+          "text" : "0",
+          "alignment" : "right",
+          "class" : "Label",
+          "name" : "out_x",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{146, 443}, {43, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RT",
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "134A3ECB-B090-4F1F-9F83-AB34A686762F",
+          "text" : "0",
+          "alignment" : "right",
+          "class" : "Label",
+          "name" : "out_y",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{303, 443}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LT",
+          "action" : "change_alpha",
+          "border_width" : 0,
+          "frame" : "{{245, 255}, {51, 31}}",
+          "uuid" : "67E44ACB-8410-4B32-8DBB-6DE62D91989C",
+          "class" : "Switch",
+          "value" : false,
+          "corner_radius" : 16,
+          "name" : "transmitSwitch"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{219, 443}, {76, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LT",
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "3199CE3B-B347-477E-929B-4D6845A1C43B",
+          "text" : "Transmit",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "Sending:",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{67.5, 99}, {225, 248}}",
+        "class" : "View",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{67, 46}, {152, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "439731BD-CCD9-4463-BC4C-F26484A3B1D7",
+              "flex" : "WLB",
+              "frame" : "{{13, 108}, {200, 32}}",
+              "alignment" : "right",
+              "autocorrection_type" : "default",
+              "text" : "iot.eclipse.org",
+              "placeholder" : "MQTT Broker",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "ipText",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{80, 210}, {64, 32}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "D481C12F-4323-41E6-9C5C-D2C8E3E7ECD6",
+              "font_size" : 15,
+              "corner_radius" : 5,
+              "background_color" : "RGBA(0.807116,0.807116,0.807116,1.000000)",
+              "frame" : "{{140, 224}, {80, 32}}",
+              "tint_color" : "RGBA(0.254682,0.254682,0.254682,1.000000)",
+              "border_width" : 1,
+              "title" : "Done",
+              "action" : "close_settings",
+              "class" : "Button",
+              "name" : "settings",
+              "flex" : "LRT"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{49, 6}, {127, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{38, 108}, {150, 32}}",
+              "uuid" : "0987CCEB-72E4-4B83-BC25-60ED26A5E064",
+              "text" : "MQTT Settings",
+              "alignment" : "center",
+              "class" : "Label",
+              "name" : "settingsLabel",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 46}, {39, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "RB",
+              "font_name" : "<System>",
+              "frame" : "{{38, 108}, {150, 32}}",
+              "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+              "text" : "IP:",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 18,
+              "name" : "ipAddress"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 126}, {53, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "RB",
+              "font_size" : 18,
+              "frame" : "{{38, 108}, {150, 32}}",
+              "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+              "text" : "Topic:",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "topic",
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 166}, {100, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "RB",
+              "font_name" : "<System>",
+              "frame" : "{{38, 108}, {150, 32}}",
+              "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+              "text" : "Send every",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "sampleing",
+              "font_size" : 18
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{114, 166}, {62, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "439731BD-CCD9-4463-BC4C-F26484A3B1D7",
+              "flex" : "WLB",
+              "frame" : "{{13, 108}, {200, 32}}",
+              "alignment" : "right",
+              "autocorrection_type" : "default",
+              "text" : "0.1",
+              "placeholder" : "Sample Time",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "sampleText",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{184, 166}, {35, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "LB",
+              "name" : "sampleSec",
+              "frame" : "{{38, 108}, {150, 32}}",
+              "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+              "text" : "sec.",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{67, 126}, {152, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "86AC4275-C4D5-4AFE-9AEF-9290195FC838",
+              "flex" : "WLB",
+              "frame" : "{{13, 108}, {200, 32}}",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "text" : "CRAWLAB\/Pythonista",
+              "placeholder" : "MQTT Topic",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "topicText",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{67, 86}, {152, 32.000000000000014}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "86AC4275-C4D5-4AFE-9AEF-9290195FC838",
+              "font_size" : 17,
+              "frame" : "{{13, 108}, {200, 32}}",
+              "alignment" : "right",
+              "autocorrection_type" : "default",
+              "text" : "1883",
+              "placeholder" : "MQTT Port",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "portText",
+              "flex" : "WLB"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{6, 86}, {53, 32.000000000000014}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "RB",
+              "font_name" : "<System>",
+              "frame" : "{{38, 108}, {150, 32}}",
+              "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+              "text" : "Port:",
+              "alignment" : "left",
+              "class" : "Label",
+              "name" : "port",
+              "font_size" : 18
+            }
+          }
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "WLRB",
+          "custom_class" : "settingsView",
+          "frame" : "{{130, 190}, {100, 100}}",
+          "uuid" : "E2D97CC8-C221-4E97-9729-005102CA8301",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "View",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.497642,0.497642,0.497642,1.000000)",
+          "name" : "settingsView"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{322, 6}, {32, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "open_settings",
+          "flex" : "LB",
+          "name" : "settings",
+          "frame" : "{{140, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "D481C12F-4323-41E6-9C5C-D2C8E3E7ECD6",
+          "font_size" : 15,
+          "image_name" : "iob:ios7_gear_256"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{115, 12}, {20, 20}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "RB",
+          "frame" : "{{140, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "0D70191F-8952-4F26-AE9E-32EF4FE9F890",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 15,
+          "name" : "connectionStatus"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 6}, {101, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "connected",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "3199CE3B-B347-477E-929B-4D6845A1C43B",
+          "text" : "Connection:",
+          "alignment" : "right",
+          "class" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "MyView",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "CRAWLAB "
+    }
+  }
+]
