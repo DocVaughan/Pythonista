@@ -1,0 +1,459 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {360, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{110, 166}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "action" : "",
+          "border_width" : 0,
+          "frame" : "{{245, 255}, {51, 31}}",
+          "uuid" : "67E44ACB-8410-4B32-8DBB-6DE62D91989C",
+          "class" : "Switch",
+          "value" : false,
+          "corner_radius" : 16,
+          "name" : "transmitSwitch"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{334, 12}, {20, 20}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "LB",
+          "frame" : "{{140, 224}, {80, 32}}",
+          "title" : "",
+          "class" : "Button",
+          "uuid" : "0D70191F-8952-4F26-AE9E-32EF4FE9F890",
+          "corner_radius" : 10,
+          "background_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 15,
+          "name" : "connectionStatus"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{225, 6}, {101, 31}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "3199CE3B-B347-477E-929B-4D6845A1C43B",
+          "text" : "Connection:",
+          "alignment" : "right",
+          "class" : "Label",
+          "name" : "connected",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{95, 46}, {135, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "439731BD-CCD9-4463-BC4C-F26484A3B1D7",
+          "flex" : "WB",
+          "frame" : "{{13, 108}, {200, 32}}",
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "text" : "iot.eclipse.org",
+          "placeholder" : "MQTT Broker",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "ipText",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 46}, {81, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RB",
+          "font_name" : "<System>",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Broker IP:",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 18,
+          "name" : "ipAddress"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 86}, {117, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RB",
+          "font_size" : 18,
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Publish Topic:",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "topic",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{169, 166}, {92, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_name" : "<System>",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Send every",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "sampleing",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{269, 166}, {40, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "439731BD-CCD9-4463-BC4C-F26484A3B1D7",
+          "flex" : "WLB",
+          "frame" : "{{13, 108}, {200, 32}}",
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "text" : "0.5",
+          "placeholder" : "Sample Time",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "sampleText",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{319, 166}, {35, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "name" : "sampleSec",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "sec.",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{131, 86}, {223, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "86AC4275-C4D5-4AFE-9AEF-9290195FC838",
+          "flex" : "WLB",
+          "frame" : "{{13, 108}, {200, 32}}",
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "CRAWLAB\/Pythonista",
+          "placeholder" : "MQTT Topic",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "pubTopicText",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{288, 46}, {66, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "86AC4275-C4D5-4AFE-9AEF-9290195FC838",
+          "font_size" : 17,
+          "frame" : "{{13, 108}, {200, 32}}",
+          "alignment" : "right",
+          "autocorrection_type" : "default",
+          "text" : "1883",
+          "placeholder" : "MQTT Port",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "portText",
+          "flex" : "LB"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{238, 46}, {42, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_name" : "<System>",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Port:",
+          "alignment" : "right",
+          "class" : "Label",
+          "name" : "port",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 126}, {117, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RB",
+          "font_name" : "<System>",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Message:",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "message",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{131, 126}, {223, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "86AC4275-C4D5-4AFE-9AEF-9290195FC838",
+          "font_size" : 17,
+          "frame" : "{{13, 108}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Test Message",
+          "placeholder" : "MQTT Test Message",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "pubMessage",
+          "flex" : "WLB"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 166}, {87, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "send_once",
+          "frame" : "{{140, 224}, {80, 32}}",
+          "title" : "Send Once",
+          "class" : "Button",
+          "uuid" : "F31828D2-DBE1-453F-90A8-FCCF6C28D043",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.889151,0.889151,0.889151,1.000000)",
+          "font_size" : 15,
+          "name" : "Send Once"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{7, 215}, {139, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RB",
+          "font_name" : "<System>",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Subscribe Topic:",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "topic",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{154, 215}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "86AC4275-C4D5-4AFE-9AEF-9290195FC838",
+          "font_size" : 17,
+          "frame" : "{{13, 108}, {200, 32}}",
+          "custom_attributes" : "",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "CRAWLAB\/Pythonista",
+          "placeholder" : "MQTT Topic",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "subTopicText",
+          "flex" : "WLB"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{7, 286}, {347, 188}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "998211DD-39FF-425A-982B-76F224E429A3",
+          "flex" : "WH",
+          "corner_radius" : 5,
+          "frame" : "{{80, 140}, {200, 200}}",
+          "border_color" : "RGBA(0.905660,0.905660,0.905660,1.000000)",
+          "editable" : false,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Messages will be prepended here as they are received.",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "receivedText",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{7, 206}, {347, 1}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{130, 190}, {100, 100}}",
+          "background_color" : "RGBA(0.886792,0.886792,0.886792,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "F7D35C49-DC1E-4B99-A108-3A53F6BCD9D8"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{7, 255}, {171, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "Received",
+          "frame" : "{{38, 108}, {150, 32}}",
+          "uuid" : "209505B1-117A-46C0-88FB-1B349E9873D2",
+          "text" : "Messages Received:",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{101, 165}, {1, 33}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LRB",
+          "frame" : "{{130, 190}, {100, 100}}",
+          "background_color" : "RGBA(0.886792,0.886792,0.886792,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "F7D35C49-DC1E-4B99-A108-3A53F6BCD9D8"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{7, 6}, {87, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "action" : "toggle_connection",
+          "frame" : "{{140, 224}, {80, 32}}",
+          "title" : "Connect",
+          "class" : "Button",
+          "uuid" : "F31828D2-DBE1-453F-90A8-FCCF6C28D043",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.889151,0.889151,0.889151,1.000000)",
+          "font_size" : 15,
+          "name" : "connectionToggle"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "MyView",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "CRAWLAB MQTT Test Client"
+    }
+  }
+]
