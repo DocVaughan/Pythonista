@@ -11,8 +11,8 @@ gps = meta.get('{GPS}')
 if gps:
   latitude = str(gps.get('Latitude', 0.0)) + gps.get('LatitudeRef', '')
   longitude =str(gps.get('Longitude', 0.0)) + gps.get('LongitudeRef', '')
-  print '%s, %s' % (latitude, longitude)
+  print('%s, %s' % (latitude, longitude))
   #webbrowser.open(query % (latitude, longitude))
 else:
-  print 'Last photo has no location metadata.'
+  print('Last photo has no location metadata.')
 
